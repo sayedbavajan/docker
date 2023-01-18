@@ -17,11 +17,9 @@
    17  docker images
    18  docker pull ubuntu
    19  docker pull jenkins/jenkins
-   20  clear
    21  docker images
    22  vi Dockerfile
    23  cat Dockerfile
-   24  clear
    25  docker images
    26  docker build -t myimage:25 .
    27  docker ps
@@ -29,7 +27,6 @@
    29  vi Dockerfile
    30  docker build myimage:latest .
    31  docker build -t myimage:latest .
-   32  clear
    33  docker images
    34  docker run -it --name container-1 myimage:latest
    35  docker ps
@@ -38,31 +35,21 @@
    38  docker images
    39  docker run -it --name conatiner-1 ubuntu:latest
    40  docker run -it --name conatiner-2 ubuntu:latest
-   41  clear
    42  docker ps
    43  docker images
    44  dokcer run -it --name conatainer-3 ubuntu:latest
    45  docker run -it --name conatainer-3 ubuntu:latest
-   46  clwear
    47  docker ps
    48  docker exec -it ea144c0edb02 /bin/bash
-   49  clear
    50  docker ps
    51  docker exec -it ea144c0edb02 /bin/bash
-   52  clear
    53  docker images
    54  vi Dockerfile
    55  docker build -t --name sayedconatiner:latest .
    56  docker build -t  sayedconatiner:latest .
    57  docker images
    58  docker run -it --name conatiner-4 centos:latest
-   59  clear
    60  docker p[s
    61  docker ps
    62  docker exec -it 186f2bb44a81 /bin/bash
-   63  clear
-   64  docker ps -a
-   65  history
-   66  dockerb ps
    67  docker ps
-   68   clear
